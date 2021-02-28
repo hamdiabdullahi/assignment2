@@ -1,6 +1,6 @@
 fun main() {
     println("Hello hamdi")
-    division()
+    modulus()
     add()
     println(true)
 
@@ -12,10 +12,10 @@ fun main() {
 fun hamdi() {
     println("Hello hamdi")
 }
-fun division() {
+fun modulus() {
     var num1=20
     var num2=10
-    var sum=num1/num2
+    var sum=num1%num2
     println(sum)
 
 }
